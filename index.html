@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head> 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+
+    <h1 id="title">HEALTH SURVEY FORM </h1>
+
+<p id="description">WELCOME!  ANSWER THE QUESTIONS BELOW TO HELP IN THE SURVEY. </p>
+
+ <form id="survey-form">
+
+
+
+
+   <fieldset>
+<label for="name-label" id="name-label"> Name: 
+  <input type="text" id="name" placeholder="Enter your name" required> </label>
+
+
+
+ <label for="email-label" id="email-label">Email: <input type="email" id="email" placeholder="Enter your email" required></label>
+
+
+
+ <label for="number-label" id="number-label">Age: <input type="number" id="number" min="0" max="99" placeholder="Age "></label>
+  </fieldset>
+
+
+
+ <fieldset>
+<legend>Gender:</legend>
+
+<label for="radio"> 
+  <input type="radio" name="gender" id="radio" value="1"> Male
+  </label>
+
+  <label for="radio"> 
+  <input type="radio" name="gender" id="radio" value="2"> Female
+</label>
+                        </fieldset>
+
+
+<fieldset>
+<legend> choose continent
+                             </legend>
+                             <label>
+    <input type="checkbox" id="checkbox" value="1"> Asia
+                            </label>
+                        <label>
+    <input type="checkbox" id="checkbox" value="2"> Africa
+                       </label>
+                  <label>
+    <input type="checkbox" id="checkbox" value="3"> North America 
+                  </label>
+              <label>
+    <input type="checkbox" id="checkbox" value="4"> South America
+            </label>
+         <label>   
+    <input type="checkbox" id="checkbox" value="5"> Antarctica
+          </label>
+       <label>   
+    <input type="checkbox" id="checkbox" value="6"> Europe
+       </label> 
+     <label>  
+    <input type="checkbox" id="checkbox" value="7"> Australia
+      </label>
+    </label>
+ </fieldset>
+
+  <fieldset>
+<label> How often do you visit the hospital:
+  <select id="dropdown"> 
+    <option value="">select one</option>
+    <option value="1">Once a while</option>
+     <option value="2">Only when I'm sick</option>
+      <option value="3">Can't remember</option>
+  </select>
+</label>
+
+<label>Frequent discomfort and how you handle it:
+  <textarea  placeholder="Headache and I..." rows="6" cols="31" required></textarea>
+</label>
+ </fieldset>
+
+ <button id="submit"> submit </button>
+
+ </form>
+
+
+</body>
+</html>
+
+
